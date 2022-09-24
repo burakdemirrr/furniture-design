@@ -21,22 +21,30 @@ function App() {
           </div>
       </header>
 
-    <main className='flex  justify-center gap-5  min-h-[650px] '> 
+    <main className='flex  justify-center gap-5  min-h-[650px] border-2 border-b-black '> 
       <div className=" flex flex-col justify-center items-center    border-r-2 border-black">
         <h1 className='text-8xl pb-6 border-b-2 border-black w-full text-center mt-5 '>FURNITURE</h1>
 
 
         <img className='w-[560px] mt-5' src="https://images.pexels.com/photos/9171450/pexels-photo-9171450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-        <p className='text-md mt-3 max-w-[700px] tracking-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint officia quia accusantium culpa atque tempora, officiis dolores fugiat similique est  dolorum exercitationem molestiae ipsa.</p>
+        <p className='text-md font-semibold mt-3 max-w-[700px] tracking-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint officia quia accusantium culpa atque tempora, officiis dolores fugiat similique est  dolorum exercitationem molestiae ipsa.</p>
       </div>
 
       <div className=" flex flex-col justify-center mt-5 space-y-8 px-3">
         <img className='w-[650px] ' src="https://images.pexels.com/photos/2082090/pexels-photo-2082090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
         <h2 className='text-3xl font-bold'>CHOOSE YOUR FURNITURE</h2>
-        <button className="border-2 border-black w-48 h-12">Shop Now</button>
+        <button className="border-2 border-black w-48 h-12 hover:bg-black hover:text-white">Shop Now</button>
       </div>
     </main>
 
+    
+    
+    <div className='flex flex-col items-center'>
+      <h1 className='text-center text-5xl mt-10'>MAKE YOUR ROOM BETTER</h1>
+        <video  className='w-100 px-20 py-12 '   autoPlay loop muted   >
+          <source src="./chair.mp4" type="video/mp4"/> 
+        </video> 
+    </div>
     </div>
   );
 }
