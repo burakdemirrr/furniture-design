@@ -26,7 +26,7 @@ function App() {
           <HeartIcon className="h-6 w-6 text-black" />
         </div>
       </header>
-      <ParallaxLayer offset={0.2} speed={0.3} >
+      <ParallaxLayer offset={0.12} speed={0.3} >
           <main className='flex  justify-center gap-5  min-h-[650px] border-b-2 border-b-black '>
         <div className=" flex flex-col justify-center items-center    border-r-2 border-black">
           <h1 className='text-8xl pb-6 border-b-2 border-black w-full text-center mt-5 '>FURNITURE</h1>
